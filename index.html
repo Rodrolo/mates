@@ -2,10 +2,22 @@
   <header>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <style>
-.header{margin:20px 0}nav ul.nav-pills li{background-color:#333;border-radius:4px;margin-right:10px}.col-lg-3{width:24%;margin-right:1.333333%}.col-lg-6{width:49%;margin-right:2%}.col-lg-12,.col-lg-3,.col-lg-6{margin-bottom:20px;border-radius:6px;background-color:#f5f5f5;padding:20px}.row .col-lg-3:last-child,.row .col-lg-6:last-child{margin-right:0}footer{padding:20px 0;text-align:center;border-top:1px solid #bbb}
+  .header{margin:20px 0}
+  .col-12{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  .content-box {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    width: 100%;
+  }
 </style>
     <title>Mates con Rodrolo</title>
   </header>
@@ -17,15 +29,23 @@
   </nav>
 </div>
 
-<div class="row"><div class="col-lg-6">
-<h3>1º Bachillerato</h3><h4>Todo el temario de 1º Bachillerato (ciencias y sociales)</h4>
-<a class="btn btn-success" href="1bac.html" role="button">Ver temario</a>
 
+
+<div class="row">
+  <div class="col-12 content-box" style="background-color: #6cd48f;">
+    <h3 style="text-align: center;font-weight: bold;">1º Bachillerato</h3>
+    <h4 style="text-align: center;">Todo el temario de 1º Bachillerato (ciencias y sociales)</h4>
+    <div class="container"><div class="row"><div class="col text-center"><a class="btn btn-warning text-center" href="1bac.html" role="button">Ver temario</a></div></div></div>
+  </div>
 </div>
-<div class="col-lg-6">
-<h3>2º Bachillerato</h3><h4>En construcción</h4>
-<a class="btn btn-success disabled" href="#" role="button">Ver temario</a>
+</div>
 
+<div class="row">
+  <div class="col-12 content-box" style="background-color: #d46c6c;">
+    <h3 style="text-align: center;font-weight: bold;">2º Bachillerato</h3>
+    <h4 style="text-align: center;">Todo el temario de 2º Bachillerato (ciencias y sociales)</h4>
+    <div class="container"><div class="row"><div class="col text-center"><a class="btn btn-secondary disabled" href="2bac.html" role="button">Ver temario</a></div></div></div>
+  </div>
 </div>
 </div>
 
